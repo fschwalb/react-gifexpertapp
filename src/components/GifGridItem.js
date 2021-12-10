@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const GifGridItem = ({ title, url }) => {
 
@@ -7,6 +7,6 @@ export const GifGridItem = ({ title, url }) => {
             <img src={ url } alt={ title } />
             <p> { title } </p>
         </div>
-    )
+    );
 
-}
+};
